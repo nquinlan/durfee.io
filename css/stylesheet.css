@@ -115,7 +115,23 @@ html{
 }
 
 #header {
+    z-index: 0;
+    width: 100%
+    left:0;
+    right: 0;
+    top: 0;
+    margin-top: -17px;
+    background-color: rgb(122,156,165);
+    list-style: none;
+    display: block;
+    text-align: center;
+}
 
+#header ul li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    list-style: none;
+    color: white;
 }
 
 #about-container {
