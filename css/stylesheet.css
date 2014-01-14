@@ -134,12 +134,16 @@ html{
     color: white;
 }
 
-#about-container {
+#intro-container{
+    background-color: #93D2BE;
+}
 
+#about-container {
+    background-color: #93D2BE;
 }
 
 #work-container {
-
+    background-color: #93D2BE;
 }
 
 /* ========== END containers :: MOBILE ========== */ 
