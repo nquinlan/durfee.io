@@ -148,8 +148,12 @@ html{
 
 /* ========== END containers :: MOBILE ========== */ 
 
+span {
+    background-color: #ABCAB0;
+}
 .title {
-
+    text-align: center;
+    display: inline-block;
 }
 
 .sub-heading {
