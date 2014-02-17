@@ -131,9 +131,10 @@ header::before, header::after {
 
 /* ========== START Containers :: MOBILE ======== */
 
-.container {
-    padding-left: 5%;
-    padding-right: 5%;
+div.container > section {
+    position: relative;
+    padding: 3em 5%;
+    overflow: hidden;
 }
 
 #header {
