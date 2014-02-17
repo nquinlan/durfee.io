@@ -98,7 +98,9 @@ textarea {
    ========================================================================== */
 
 html{
-    background: url(../images/bg-wave.jpg) no-repeat center fixed;
+    background: no-repeat center fixed;
+}
+
 }
 
 
