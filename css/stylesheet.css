@@ -261,12 +261,14 @@ span {
     *text-indent: -9999px;
 }
 
-.ir:before {
+.ir::before {
     content: "";
     display: block;
     width: 0;
     height: 150%;
 }
+
+
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
@@ -327,13 +329,14 @@ span {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+.clearfix::before,
+.clearfix::after {
     content: " "; /* 1 */
-    display: table; /* 2 */
+    display: block; /* 2 */
 }
 
-.clearfix:after {
+.clearfix::after {
+    content: " ";
     clear: both;
 }
 
