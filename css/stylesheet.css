@@ -129,7 +129,7 @@ header::before, header::after {
    ========================================================================== */
 
 
-/* ========== START Containers :: MOBILE ======== */
+/* ========== START Containers // MOBILE ======== */
 
 div.container > section {
     position: relative;
@@ -204,6 +204,9 @@ header li:hover a, header li:active a {
 
 }
 
+/* ========== END containers // MOBILE ========== */
+
+/* ========== START containers // TABLET ========== */
 @media only screen and (min-width: 768px) {
 
     nav ul li {
@@ -221,11 +224,12 @@ header li:hover a, header li:active a {
     }
 }
 
-/* ========== END containers :: MOBILE ========== */ 
+/* ========== END containers // TABLET ========== */ 
 
 span {
     background-color: #ABCAB0;
 }
+
 .title {
     text-align: center;
     display: inline-block;
