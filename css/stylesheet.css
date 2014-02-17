@@ -148,10 +148,30 @@ header {
     margin-top: -1em;
 }
 
-#header ul li {
-    padding-top: 3%;
-    padding-bottom: 3%;
+nav ul li {
     list-style: none;
+    display: inline-block;
+    width: 30%;
+    height:5em;
+    line-height: 5em;
+    cursor: pointer; 
+    float: none;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header li:first-child {
+    display: none;
+    visibility: hidden;
+}
+
+
     color: white;
 }
 
