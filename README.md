@@ -1,4 +1,4 @@
-durfee.io
+seandurfee.com 
 =========
 
 These are the files to my personal website, which will not be named durfee.io unless someone decides to give me $100.
