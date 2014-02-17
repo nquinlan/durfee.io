@@ -191,16 +191,19 @@ header li:hover a, header li:active a {
             transition: 0.3s ease-in-out;
 }
 
-#intro-container{
-    background-color: #93D2BE;
+#intro {
+
+
 }
 
-#about-container {
-    background-color: #93D2BE;
+#about {
+
 }
 
-#work-container {
-    background-color: #93D2BE;
+#work {
+
+}
+
 }
 
 /* ========== END containers :: MOBILE ========== */ 
