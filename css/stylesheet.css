@@ -137,17 +137,15 @@ div.container > section {
     overflow: hidden;
 }
 
-#header {
-    z-index: 0;
-    width: 100%
-    left:0;
+header {
+    width: 100%;
+    left: 0;
     right: 0;
-    top: 0;
-    margin-top: -17px;
-    background-color: rgb(122,156,165);
-    list-style: none;
-    display: block;
+    display: inline-block;
+    background-color: rgba(122,156,165, .5);
     text-align: center;
+    height: 6em;
+    margin-top: -1em;
 }
 
 #header ul li {
