@@ -101,6 +101,20 @@ html{
     background: no-repeat center fixed;
 }
 
+/*
+ * General Pseudos n transitions n stuff
+ */
+
+section::before, section::after {
+    content: '';
+    position: absolute;
+}
+
+header::before, header::after {
+    content: '';
+    position: absolute;
+}
+
 }
 
 
