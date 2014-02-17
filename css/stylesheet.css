@@ -172,7 +172,23 @@ header li:first-child {
 }
 
 
+header li:hover, header li:active { 
+    background-color: rgba(232, 52, 16, 0.4);
+    border-bottom: 5px solid rgba(232, 52, 16, 0.8);
+    -webkit-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+}
+
+header li:hover a, header li:active a {
     color: white;
+    -webkit-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
 }
 
 #intro-container{
