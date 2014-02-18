@@ -201,6 +201,9 @@ header li:hover a, header li:active a {
 }
 
 #intro {
+    background: #173344;
+}
+
 }
 
 #about {
