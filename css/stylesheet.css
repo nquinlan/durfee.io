@@ -284,20 +284,15 @@ header li:hover a, header li:active a {
 /* ========== END containers // TABLET ========== */ 
 
 span {
-    background-color: #ABCAB0;
 }
 
 .title {
     text-align: center;
-    display: inline-block;
 }
 
 .sub-heading {
 }
 
-.portrait {
-
-}
 
 /* ==========================================================================
    Helper classes
