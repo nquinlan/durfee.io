@@ -241,6 +241,12 @@ header li:hover a, header li:active a {
             transform: translateX(-50%);
 }
 
+#intro h3 {
+    text-align: center;
+    float: none;
+    color: white;
+    font-size: 1.6em;
+    padding: 3em 0 0;
 }
 
 #about {
