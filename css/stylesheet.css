@@ -216,6 +216,15 @@ header li:hover a, header li:active a {
     background: inherit;
 }
 
+#intro img {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: none;
+    padding: none;
+}
+
 }
 
 #about {
