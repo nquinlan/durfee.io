@@ -225,6 +225,22 @@ header li:hover a, header li:active a {
     padding: none;
 }
 
+ #intro h3::before {
+    margin: 0 0 6% 50%; 
+    width: 20px;
+    height: 20px;
+    background: white;
+    box-shadow: -40px 0 0 white,
+                -80px 0 0 white,
+                 40px 0 0 white,
+                 80px 0 0 white;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
 }
 
 #about {
