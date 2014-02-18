@@ -204,6 +204,18 @@ header li:hover a, header li:active a {
     background: #173344;
 }
 
+#intro::after {
+    bottom: -2em;
+    width: 4em;
+    height: 4em;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+       -moz-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+         -o-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
+    background: inherit;
+}
+
 }
 
 #about {
