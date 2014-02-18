@@ -167,7 +167,6 @@ nav ul li {
     line-height: 5em;
     cursor: pointer; 
     float: none;
-    
 }
 
 header ul li a {
@@ -181,7 +180,6 @@ header li:first-child {
     display: none;
     visibility: hidden;
 }
-
 
 header li:hover, header li:active { 
     background-color: rgba(232, 52, 16, 0.4);
@@ -203,8 +201,6 @@ header li:hover a, header li:active a {
 }
 
 #intro {
-
-
 }
 
 #about {
@@ -247,14 +243,11 @@ span {
 }
 
 .sub-heading {
-
 }
 
 .portrait {
 
 }
-
-
 
 /* ==========================================================================
    Helper classes
