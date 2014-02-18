@@ -155,6 +155,10 @@ header {
     margin-top: -1em;
 }
 
+nav ul {
+    margin-left: -7%;
+}
+
 nav ul li {
     list-style: none;
     display: inline-block;
