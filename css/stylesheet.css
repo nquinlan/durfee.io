@@ -134,7 +134,7 @@ header::before, header::after {
 div.container > section {
     position: relative;
     padding: 3em 5%;
-    overflow: hidden;
+    text-align: center;
 }
 
 header {
