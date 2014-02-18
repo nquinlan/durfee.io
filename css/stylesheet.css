@@ -123,6 +123,13 @@ header::before, header::after {
             transition: all 0.5s ease-in-out;
 }
 
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
 /* ==========================================================================
                 Mobile Styles (<768)
